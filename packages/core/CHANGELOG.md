@@ -1,5 +1,11 @@
 # @redocly/openapi-core
 
+## 2.14.8
+
+### Patch Changes
+
+- Allowed `x-query` operations names in OpenAPI 3.0 and 3.1 similar to `query` in OpenAPI 3.2.
+
 ## 2.14.7
 
 ### Patch Changes
