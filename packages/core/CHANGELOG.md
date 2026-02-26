@@ -1,5 +1,11 @@
 # @redocly/openapi-core
 
+## 3.0.0
+
+### Major Changes
+
+- Added AsyncAPI support to the `stats` command.
+
 ## 2.19.2
 
 ### Patch Changes
