@@ -1,5 +1,14 @@
 # @redocly/cli
 
+## 2.52.0
+
+### Minor Changes
+
+- Added agent skills for AI coding assistants: `redocly-cli` for everyday CLI usage, `redocly-lint-rules` for writing configurable rules and custom plugins.
+  Install them with `npx skills add https://redocly.com`.
+- Added an experimental `inspect-node-types` command to navigate the Redocly's node type tree of an API description.
+  `inspect-node-types` helps pick the correct `subject` types for a configurable rule or the correct visitor for a custom plugin.
+
 ## 2.51.2
 
 ### Patch Changes
