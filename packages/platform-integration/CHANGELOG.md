@@ -1,5 +1,11 @@
 # @redocly/platform-integration
 
+## 2.76.1
+
+### Patch Changes
+
+- Updated @redocly/openapi-core to v2.76.1.
+
 ## 2.76.0
 
 ### Minor Changes

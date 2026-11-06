@@ -7,6 +7,16 @@ toc:
 
 <!-- do-not-remove -->
 
+## 2.76.1 (2026-11-06)
+
+### Patch Changes
+
+- Changed JSON Pointers in `respect` runtime expressions to accept every character that the Arazzo grammar allows, so put a space before `&&` that follows a pointer, as in `$response.body#/flag && $statusCode == 200`.
+- Added support for the `~0` and `~1` escapes in JSON Pointers of `respect` runtime expressions, so a pointer can reach a key that contains `~` or `/`.
+- Fixed an issue where `respect` could run values from API responses and step outputs as code when it evaluated runtime expressions.
+- Changed `respect` runtime expressions to read a backslash in a string literal as written, so `"a\nb"` no longer contains a newline.
+- Updated @redocly/respect-core to v2.76.1.
+
 ## 2.76.0 (2026-11-05)
 
 ### Patch Changes
